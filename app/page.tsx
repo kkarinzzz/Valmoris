@@ -188,10 +188,9 @@ export default function Component() {
                 <div className="w-12 h-12 bg-green-700 rounded-lg flex items-center justify-center mb-4">
                   <Users className="h-6 w-6 text-white" />
                 </div>
-                <CardTitle className="text-gray-100">Guild & Kerajaan</CardTitle>
+                <CardTitle className="text-gray-100">New Boss</CardTitle>
                 <CardDescription className="text-gray-400">
-                  Bentuk aliansi, bangun kerajaan, dan terlibat dalam perang guild epik dengan pemain lain di seluruh
-                  realm.
+                  Melawan boss baru dengan member Valmoris Dominion
                 </CardDescription>
               </CardHeader>
             </Card>

@@ -5,6 +5,9 @@ export const metadata: Metadata = {
   title: 'Valmoris Dominion',
   description: 'kkarinzzz',
   generator: 'Valmoris',
+  icons: {
+    icon: '/favicon.ico,
+  },
 }
 
 export default function RootLayout({

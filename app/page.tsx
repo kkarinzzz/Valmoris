@@ -188,9 +188,10 @@ export default function Component() {
                 <div className="w-12 h-12 bg-green-700 rounded-lg flex items-center justify-center mb-4">
                   <Users className="h-6 w-6 text-white" />
                 </div>
-                <CardTitle className="text-gray-100">New Boss</CardTitle>
+                <CardTitle className="text-gray-100">Guild & Kerajaan</CardTitle>
                 <CardDescription className="text-gray-400">
-                  Melawan boss baru dengan member Valmoris Dominion
+                  Bentuk aliansi, bangun kerajaan, dan terlibat dalam perang guild epik dengan pemain lain di seluruh
+                  world
                 </CardDescription>
               </CardHeader>
             </Card>
@@ -223,15 +224,15 @@ export default function Component() {
               <div className="aspect-video relative">
                 <Image
                   src="/images/boss.jpg?height=400&width=600"
-                  alt="Kastil medieval dan overview kerajaan"
+                  alt="boss world"
                   fill
                   className="object-cover"
                 />
               </div>
               <CardContent className="p-6">
-                <h3 className="text-xl font-bold text-gray-100 mb-2">Kastil Agung</h3>
+                <h3 className="text-xl font-bold text-gray-100 mb-2">Boss Valmoris</h3>
                 <p className="text-gray-400">
-                  Kastil pusat Valmoris yang megah, tempat para pemain berkumpul untuk event dan trading.
+                  Ayo lawan boss bersama member Valmoris!
                 </p>
               </CardContent>
             </Card>
@@ -239,16 +240,16 @@ export default function Component() {
             <Card className="overflow-hidden border-slate-600 bg-slate-800/80 backdrop-blur-sm">
               <div className="aspect-video relative">
                 <Image
-                  src="/placeholder.svg?height=400&width=600"
-                  alt="Interior dungeon epik dengan harta karun"
+                  src="/images/player?height=400&width=600"
+                  alt="foto player"
                   fill
                   className="object-cover"
                 />
               </div>
               <CardContent className="p-6">
-                <h3 className="text-xl font-bold text-gray-100 mb-2">Kedalaman Dungeon</h3>
+                <h3 className="text-xl font-bold text-gray-100 mb-2">Foto member</h3>
                 <p className="text-gray-400">
-                  Jelajahi dungeon misterius yang dipenuhi harta karun kuno dan makhluk berbahaya.
+                  Ayo menambah moment dengan member Valmoris!
                 </p>
               </CardContent>
             </Card>

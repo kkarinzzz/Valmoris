@@ -240,7 +240,7 @@ export default function Component() {
             <Card className="overflow-hidden border-slate-600 bg-slate-800/80 backdrop-blur-sm">
               <div className="aspect-video relative">
                 <Image
-                  src="/images/player?height=400&width=600"
+                  src="/images/player.jpg?height=400&width=600"
                   alt="foto player"
                   fill
                   className="object-cover"

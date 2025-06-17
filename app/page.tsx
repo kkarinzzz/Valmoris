@@ -215,7 +215,7 @@ export default function Component() {
       <section id="gallery" className="py-20 px-4">
         <div className="container mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-100 mb-4">Galeri Kerajaan</h2>
+            <h2 className="text-4xl font-bold text-gray-100 mb-4">Galeri</h2>
             <p className="text-xl text-gray-300">Saksikan keindahan dan kemegahan Valmoris Dominion</p>
           </div>
 

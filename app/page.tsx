@@ -223,7 +223,7 @@ export default function Component() {
             <Card className="overflow-hidden border-slate-600 bg-slate-800/80 backdrop-blur-sm">
               <div className="aspect-video relative">
                 <Image
-                  src="/placeholder.svg?height=400&width=600"
+                  src="/images/boss.jpg?height=400&width=600"
                   alt="Kastil medieval dan overview kerajaan"
                   fill
                   className="object-cover"

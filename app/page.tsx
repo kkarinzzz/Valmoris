@@ -91,7 +91,7 @@ export default function Component() {
                 <div className="text-center">
                   <p className="text-sm text-gray-400 mb-1">IP Server</p>
                   <div className="flex items-center justify-center gap-2 p-3 bg-slate-700 rounded-lg border border-slate-600">
-                    <code className="text-lg font-mono text-yellow-400">Valmoris.my.id:19105</code>
+                    <code className="text-lg font-mono text-yellow-400">valmoris.my.id:19105</code>
                     <Button
                       size="sm"
                       variant="ghost"
@@ -109,7 +109,7 @@ export default function Component() {
                   </div>
                   <div className="flex items-center gap-1">
                     <Users className="h-4 w-4" />
-                    47/100 Pemain
+                    Unlimited Pemain
                   </div>
                 </div>
               </CardContent>
@@ -262,15 +262,15 @@ export default function Component() {
         <div className="container mx-auto">
           <div className="grid md:grid-cols-4 gap-8 text-center">
             <div>
-              <div className="text-4xl font-bold mb-2 text-yellow-400">500+</div>
+              <div className="text-4xl font-bold mb-2 text-yellow-400">Unlimited</div>
               <div className="text-gray-400">Pemain Terdaftar</div>
             </div>
             <div>
-              <div className="text-4xl font-bold mb-2 text-red-400">25+</div>
+              <div className="text-4xl font-bold mb-2 text-red-400">10+</div>
               <div className="text-gray-400">Dungeon Kustom</div>
             </div>
             <div>
-              <div className="text-4xl font-bold mb-2 text-purple-400">15+</div>
+              <div className="text-4xl font-bold mb-2 text-purple-400">5+</div>
               <div className="text-gray-400">Boss Epik</div>
             </div>
             <div>
@@ -294,7 +294,7 @@ export default function Component() {
             <div className="bg-black/30 backdrop-blur-sm rounded-lg p-6 mb-8 max-w-md mx-auto border border-slate-700">
               <p className="text-gray-200 mb-2">Salin ini untuk bergabung:</p>
               <div className="flex items-center justify-center gap-2 p-3 bg-black/40 rounded-lg border border-slate-600">
-                <code className="text-lg font-mono text-yellow-400">Valmoris.my.id:19105</code>
+                <code className="text-lg font-mono text-yellow-400">valmoris.my.id:19105</code>
                 <Button
                   size="sm"
                   variant="ghost"
@@ -379,10 +379,10 @@ export default function Component() {
             <div>
               <h4 className="font-bold text-gray-100 mb-4">Info Server</h4>
               <div className="space-y-2 text-sm">
-                <p>IP: Valmoris.my.id:19105</p>
-                <p>Versi: 1.20.x</p>
+                <p>IP: valmoris.my.id:19105</p>
+                <p>Versi: 1.21.x</p>
                 <p>Tipe: Medieval RPG</p>
-                <p>Maks Pemain: 100</p>
+                <p>Maks Pemain: Unlimited</p>
               </div>
             </div>
           </div>
@@ -390,7 +390,7 @@ export default function Component() {
           <Separator className="my-8 bg-slate-700" />
 
           <div className="text-center text-gray-500">
-            <p>&copy; 2024 Valmoris Dominion. Semua hak dilindungi.</p>
+            <p>&copy; 2025 Valmoris Dominion. Semua hak dilindungi.</p>
           </div>
         </div>
       </footer>

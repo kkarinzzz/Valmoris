@@ -12,7 +12,7 @@ export default function Component() {
   const [copied, setCopied] = useState(false)
 
   const copyServerInfo = () => {
-    navigator.clipboard.writeText("Valmoris.my.id:19105")
+    navigator.clipboard.writeText("valmoris.my.id:19105")
     setCopied(true)
     setTimeout(() => setCopied(false), 2000)
   }

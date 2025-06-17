@@ -4,7 +4,7 @@ import './globals.css'
 export const metadata: Metadata = {
   title: 'Valmoris Dominion',
   description: 'kkarinzzz',
-  generator: 'v0.dev',
+  generator: 'Valmoris',
 }
 
 export default function RootLayout({

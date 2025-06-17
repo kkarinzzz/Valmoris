@@ -313,7 +313,7 @@ export default function Component() {
               <Button
                 size="lg"
                 variant="outline"
-                className="border-gray-300 text-white hover:bg-white/10 px-8 py-3"
+                className="bg-slate-800 border border-gray-700 text-while hover:bg-slate-700 px-8 py-3 transition-colors rounded"
                 onClick={() => window.open("https://discord.gg/VvgeYUxXHp", "_blank")}
               >
                 <svg

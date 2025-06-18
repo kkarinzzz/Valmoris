@@ -74,7 +74,7 @@ export default function GaleriPage() {
             <Card className="overflow-hidden border-slate-600 bg-slate-800/80 backdrop-blur-sm hover:shadow-lg hover:shadow-red-900/20 transition-all">
               <div className="aspect-video relative">
                 <Image
-                  src="/cathedral.png?height=400&width=600"
+                  src="/images/cathedral.png?height=400&width=600"
                   alt="Cathedral Valmoris"
                   fill
                   className="object-cover hover:scale-105 transition-transform duration-300"
@@ -91,7 +91,7 @@ export default function GaleriPage() {
             <Card className="overflow-hidden border-slate-600 bg-slate-800/80 backdrop-blur-sm hover:shadow-lg hover:shadow-red-900/20 transition-all">
               <div className="aspect-video relative">
                 <Image
-                  src="/lobby.png?height=400&width=600"
+                  src="/images/lobby.png?height=400&width=600"
                   alt="Lobby server"
                   fill
                   className="object-cover hover:scale-105 transition-transform duration-300"
@@ -108,7 +108,7 @@ export default function GaleriPage() {
             <Card className="overflow-hidden border-slate-600 bg-slate-800/80 backdrop-blur-sm hover:shadow-lg hover:shadow-red-900/20 transition-all">
               <div className="aspect-video relative">
                 <Image
-                  src="/village/png?height=400&width=600"
+                  src="/images/village/png?height=400&width=600"
                   alt="Mountain Village"
                   fill
                   className="object-cover hover:scale-105 transition-transform duration-300"
@@ -125,7 +125,7 @@ export default function GaleriPage() {
             <Card className="overflow-hidden border-slate-600 bg-slate-800/80 backdrop-blur-sm hover:shadow-lg hover:shadow-red-900/20 transition-all">
               <div className="aspect-video relative">
                 <Image
-                  src="/boss.png?height=400&width=600"
+                  src="/images/boss.png?height=400&width=600"
                   alt="Boss server"
                   fill
                   className="object-cover hover:scale-105 transition-transform duration-300"
@@ -142,7 +142,7 @@ export default function GaleriPage() {
             <Card className="overflow-hidden border-slate-600 bg-slate-800/80 backdrop-blur-sm hover:shadow-lg hover:shadow-red-900/20 transition-all">
               <div className="aspect-video relative">
                 <Image
-                  src="/player.png?height=400&width=600"
+                  src="/images/player.png?height=400&width=600"
                   alt="Player"
                   fill
                   className="object-cover hover:scale-105 transition-transform duration-300"

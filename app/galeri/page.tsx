@@ -61,7 +61,7 @@ export default function GaleriPage() {
               Galeri
               <br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 via-red-500 to-purple-600">
-                Kerajaan
+                Valmoris
               </span>
             </h1>
             <p className="text-xl text-gray-300 max-w-2xl mx-auto">
@@ -243,7 +243,7 @@ export default function GaleriPage() {
             </div>
 
             <div>
-              <h4 className="font-bold text-gray-100 mb-4">Link Cepat</h4>
+              <h4 className="font-bold text-gray-100 mb-4">Link</h4>
               <ul className="space-y-2">
                 <li>
                   <Link href="/rules" className="hover:text-yellow-400 transition-colors">
@@ -276,8 +276,8 @@ export default function GaleriPage() {
             <div>
               <h4 className="font-bold text-gray-100 mb-4">Info Server</h4>
               <div className="space-y-2 text-sm">
-                <p>IP: Valmoris.my.id:19105</p>
-                <p>Versi: 1.20.x</p>
+                <p>IP: valmoris.my.id:19105</p>
+                <p>Versi: 1.21.x</p>
                 <p>Tipe: Medieval RPG</p>
                 <p>Maks Pemain: 100</p>
               </div>
@@ -287,7 +287,7 @@ export default function GaleriPage() {
           <Separator className="my-8 bg-slate-700" />
 
           <div className="text-center text-gray-500">
-            <p>&copy; 2024 Valmoris Dominion. Semua hak dilindungi.</p>
+            <p>&copy; 2025 Valmoris Dominion. Semua hak dilindungi.</p>
           </div>
         </div>
       </footer>

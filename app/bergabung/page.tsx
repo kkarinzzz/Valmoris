@@ -196,7 +196,7 @@ export default function BergabungPage() {
                 <div className="space-y-3 text-gray-300">
                   <p>• Buka Minecraft Bedrock Edition</p>
                   <p>• Klik tombol "Multiplayer"</p>
-                  <p>• Klik "Add Server"p>
+                  <p>• Klik "Add Server"</p>
                 </div>
               </CardContent>
             </Card>

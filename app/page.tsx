@@ -359,7 +359,7 @@ export default function Component() {
             <div>
               <h4 className="font-bold text-gray-100 mb-4">Info Server</h4>
               <div className="space-y-2 text-sm">
-                <p>IP: Valmoris.my.id:19105</p>
+                <p>IP: valmoris.my.id:19105</p>
                 <p>Versi: 1.21.x</p>
                 <p>Tipe: Medieval RPG</p>
                 <p>Maks Pemain: Unlimited</p>

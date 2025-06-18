@@ -296,7 +296,7 @@ export default function RulesPage() {
             </div>
 
             <div>
-              <h4 className="font-bold text-gray-100 mb-4">Link Cepat</h4>
+              <h4 className="font-bold text-gray-100 mb-4">Link</h4>
               <ul className="space-y-2">
                 <li>
                   <Link href="/rules" className="hover:text-yellow-400 transition-colors">
@@ -330,7 +330,7 @@ export default function RulesPage() {
               <h4 className="font-bold text-gray-100 mb-4">Info Server</h4>
               <div className="space-y-2 text-sm">
                 <p>IP: Valmoris.my.id:19105</p>
-                <p>Versi: 1.20.x</p>
+                <p>Versi: 1.21.x</p>
                 <p>Tipe: Medieval RPG</p>
                 <p>Maks Pemain: 100</p>
               </div>
@@ -340,7 +340,7 @@ export default function RulesPage() {
           <Separator className="my-8 bg-slate-700" />
 
           <div className="text-center text-gray-500">
-            <p>&copy; 2024 Valmoris Dominion. Semua hak dilindungi.</p>
+            <p>&copy; 2025 Valmoris Dominion. Semua hak dilindungi.</p>
           </div>
         </div>
       </footer>

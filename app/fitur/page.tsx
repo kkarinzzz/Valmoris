@@ -90,7 +90,7 @@ export default function FiturPage() {
                 </div>
                 <CardTitle className="text-gray-100">Boss Legendaris</CardTitle>
                 <CardDescription className="text-gray-400">
-                  Hadapi 10+ boss epik dengan mekanik unik, AI cerdas, dan drop rate langka. Dari Dragon Lord hingga
+                  Hadapi 10+ boss epik dengan mekanik unik, dan drop rate langka. Dari Dragon Lord hingga
                   Lich King, setiap boss memberikan tantangan berbeda.
                 </CardDescription>
               </CardHeader>

@@ -12,7 +12,7 @@ export default function BergabungPage() {
   const [copied, setCopied] = useState(false)
 
   const copyServerInfo = () => {
-    navigator.clipboard.writeText("IP: Valmoris.my.id | Port: 19105")
+    navigator.clipboard.writeText("IP: valmoris.my.id | Port: 19105")
     setCopied(true)
     setTimeout(() => setCopied(false), 2000)
   }
@@ -91,12 +91,12 @@ export default function BergabungPage() {
                 <div>
                   <p className="text-sm text-gray-400 mb-2">IP Server</p>
                   <div className="flex items-center justify-center gap-2 p-4 bg-slate-700 rounded-lg border border-slate-600 max-w-md mx-auto">
-                    <code className="text-xl font-mono text-yellow-400">Valmoris.my.id</code>
+                    <code className="text-xl font-mono text-yellow-400">valmoris.my.id</code>
                     <Button
                       size="sm"
                       variant="ghost"
                       onClick={() => {
-                        navigator.clipboard.writeText("Valmoris.my.id")
+                        navigator.clipboard.writeText("valmoris.my.id")
                         setCopied(true)
                         setTimeout(() => setCopied(false), 2000)
                       }}
@@ -129,7 +129,7 @@ export default function BergabungPage() {
               <div className="grid md:grid-cols-3 gap-4 text-center text-sm">
                 <div className="p-3 bg-slate-700/50 rounded-lg">
                   <p className="text-gray-400">Versi</p>
-                  <p className="text-yellow-400 font-semibold">Bedrock 1.20+</p>
+                  <p className="text-yellow-400 font-semibold">Bedrock 1.21+</p>
                 </div>
                 <div className="p-3 bg-slate-700/50 rounded-lg">
                   <p className="text-gray-400">Status</p>
@@ -140,7 +140,7 @@ export default function BergabungPage() {
                 </div>
                 <div className="p-3 bg-slate-700/50 rounded-lg">
                   <p className="text-gray-400">Pemain</p>
-                  <p className="text-blue-400 font-semibold">47/100</p>
+                  <p className="text-blue-400 font-semibold">Unlimited</p>
                 </div>
               </div>
             </CardContent>
@@ -160,14 +160,14 @@ export default function BergabungPage() {
                   <div>
                     <CardTitle className="text-gray-100">Download Minecraft Bedrock Edition</CardTitle>
                     <CardDescription className="text-gray-400">
-                      Pastikan kamu punya Minecraft Bedrock versi 1.20+
+                      Pastikan kamu punya Minecraft Bedrock versi 1.21+
                     </CardDescription>
                   </div>
                 </div>
               </CardHeader>
               <CardContent className="pl-16">
                 <p className="text-gray-300 mb-4">
-                  Server Valmoris Dominion membutuhkan Minecraft Bedrock Edition versi 1.20+. Tersedia di Android, iOS,
+                  Server Valmoris Dominion membutuhkan Minecraft Bedrock Edition versi 1.21+. Tersedia di Android, iOS,
                   Windows 10/11, Xbox, PlayStation, dan Nintendo Switch.
                 </p>
                 <a href="https://minecraft.net/get-minecraft" target="_blank" rel="noopener noreferrer">
@@ -194,9 +194,9 @@ export default function BergabungPage() {
               </CardHeader>
               <CardContent className="pl-16">
                 <div className="space-y-3 text-gray-300">
-                  <p>• Buka Minecraft Java Edition</p>
+                  <p>• Buka Minecraft Bedrock Edition</p>
                   <p>• Klik tombol "Multiplayer"</p>
-                  <p>• Klik "Add Server" atau "Direct Connect"</p>
+                  <p>• Klik "Add Server"p>
                 </div>
               </CardContent>
             </Card>
@@ -225,12 +225,12 @@ export default function BergabungPage() {
                     <div>
                       <p className="text-gray-400 text-sm">Server Address:</p>
                       <div className="flex items-center gap-2">
-                        <p className="text-yellow-400 font-mono text-lg">Valmoris.my.id</p>
+                        <p className="text-yellow-400 font-mono text-lg">valmoris.my.id</p>
                         <Button
                           size="sm"
                           variant="ghost"
                           onClick={() => {
-                            navigator.clipboard.writeText("Valmoris.my.id")
+                            navigator.clipboard.writeText("valmoris.my.id")
                             setCopied(true)
                             setTimeout(() => setCopied(false), 2000)
                           }}
@@ -366,7 +366,7 @@ export default function BergabungPage() {
             </div>
 
             <div>
-              <h4 className="font-bold text-gray-100 mb-4">Link Cepat</h4>
+              <h4 className="font-bold text-gray-100 mb-4">Link</h4>
               <ul className="space-y-2">
                 <li>
                   <Link href="/rules" className="hover:text-yellow-400 transition-colors">
@@ -399,8 +399,8 @@ export default function BergabungPage() {
             <div>
               <h4 className="font-bold text-gray-100 mb-4">Info Server</h4>
               <div className="space-y-2 text-sm">
-                <p>IP: Valmoris.my.id:19105</p>
-                <p>Versi: 1.20.x</p>
+                <p>IP: valmoris.my.id:19105</p>
+                <p>Versi: 1.21.x</p>
                 <p>Tipe: Medieval RPG</p>
                 <p>Maks Pemain: 100</p>
               </div>
@@ -410,7 +410,7 @@ export default function BergabungPage() {
           <Separator className="my-8 bg-slate-700" />
 
           <div className="text-center text-gray-500">
-            <p>&copy; 2024 Valmoris Dominion. Semua hak dilindungi.</p>
+            <p>&copy; 2025 Valmoris Dominion. Semua hak dilindungi.</p>
           </div>
         </div>
       </footer>

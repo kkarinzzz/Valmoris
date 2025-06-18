@@ -74,17 +74,16 @@ export default function GaleriPage() {
             <Card className="overflow-hidden border-slate-600 bg-slate-800/80 backdrop-blur-sm hover:shadow-lg hover:shadow-red-900/20 transition-all">
               <div className="aspect-video relative">
                 <Image
-                  src="/placeholder.svg?height=400&width=600"
-                  alt="Kastil medieval dan overview kerajaan Valmoris"
+                  src="/cathedral.png?height=400&width=600"
+                  alt="Cathedral Valmoris"
                   fill
                   className="object-cover hover:scale-105 transition-transform duration-300"
                 />
               </div>
               <CardContent className="p-6">
-                <h3 className="text-xl font-bold text-gray-100 mb-2">🏰 Kastil Agung Valmoris</h3>
+                <h3 className="text-xl font-bold text-gray-100 mb-2">🏰 Cathedral Valmoris</h3>
                 <p className="text-gray-400">
-                  Kastil pusat kerajaan Valmoris yang megah, tempat para pemain berkumpul untuk event, trading, dan
-                  memulai quest epik mereka.
+                  Pusat awal mula dimulai petualangan
                 </p>
               </CardContent>
             </Card>
@@ -92,17 +91,16 @@ export default function GaleriPage() {
             <Card className="overflow-hidden border-slate-600 bg-slate-800/80 backdrop-blur-sm hover:shadow-lg hover:shadow-red-900/20 transition-all">
               <div className="aspect-video relative">
                 <Image
-                  src="/placeholder.svg?height=400&width=600"
-                  alt="Interior dungeon epik dengan harta karun dan monster"
+                  src="/lobby.png?height=400&width=600"
+                  alt="Lobby server"
                   fill
                   className="object-cover hover:scale-105 transition-transform duration-300"
                 />
               </div>
               <CardContent className="p-6">
-                <h3 className="text-xl font-bold text-gray-100 mb-2">⚔️ Kedalaman Dungeon</h3>
+                <h3 className="text-xl font-bold text-gray-100 mb-2">⚔️ Lobby server</h3>
                 <p className="text-gray-400">
-                  Jelajahi dungeon misterius yang dipenuhi harta karun kuno, jebakan mematikan, dan makhluk berbahaya
-                  yang menunggu tantangan.
+                  Lobby server Valmoris Dominion
                 </p>
               </CardContent>
             </Card>
@@ -110,17 +108,16 @@ export default function GaleriPage() {
             <Card className="overflow-hidden border-slate-600 bg-slate-800/80 backdrop-blur-sm hover:shadow-lg hover:shadow-red-900/20 transition-all">
               <div className="aspect-video relative">
                 <Image
-                  src="/placeholder.svg?height=400&width=600"
-                  alt="Arena PvP dan tournament area"
+                  src="/village/png?height=400&width=600"
+                  alt="Mountain Village"
                   fill
                   className="object-cover hover:scale-105 transition-transform duration-300"
                 />
               </div>
               <CardContent className="p-6">
-                <h3 className="text-xl font-bold text-gray-100 mb-2">🗡️ Arena Pertempuran</h3>
+                <h3 className="text-xl font-bold text-gray-100 mb-2">🗡️ Village</h3>
                 <p className="text-gray-400">
-                  Arena PvP yang spektakuler untuk tournament dan duel antar pemain. Buktikan kehebatanmu di medan
-                  pertempuran!
+                  Masih terjangkau untuk awal mula
                 </p>
               </CardContent>
             </Card>
@@ -128,16 +125,16 @@ export default function GaleriPage() {
             <Card className="overflow-hidden border-slate-600 bg-slate-800/80 backdrop-blur-sm hover:shadow-lg hover:shadow-red-900/20 transition-all">
               <div className="aspect-video relative">
                 <Image
-                  src="/placeholder.svg?height=400&width=600"
-                  alt="Village dan marketplace medieval"
+                  src="/boss.png?height=400&width=600"
+                  alt="Boss server"
                   fill
                   className="object-cover hover:scale-105 transition-transform duration-300"
                 />
               </div>
               <CardContent className="p-6">
-                <h3 className="text-xl font-bold text-gray-100 mb-2">🏘️ Village & Marketplace</h3>
+                <h3 className="text-xl font-bold text-gray-100 mb-2">🏘️ Boss</h3>
                 <p className="text-gray-400">
-                  Desa-desa medieval yang hidup dengan NPC, merchant, dan marketplace untuk trading item dan equipment.
+                  Boss server, ada banyak ygy
                 </p>
               </CardContent>
             </Card>
@@ -145,17 +142,16 @@ export default function GaleriPage() {
             <Card className="overflow-hidden border-slate-600 bg-slate-800/80 backdrop-blur-sm hover:shadow-lg hover:shadow-red-900/20 transition-all">
               <div className="aspect-video relative">
                 <Image
-                  src="/placeholder.svg?height=400&width=600"
-                  alt="Boss fight scene dengan dragon"
+                  src="/player.png?height=400&width=600"
+                  alt="Player"
                   fill
                   className="object-cover hover:scale-105 transition-transform duration-300"
                 />
               </div>
               <CardContent className="p-6">
-                <h3 className="text-xl font-bold text-gray-100 mb-2">🐉 Boss Battle Epic</h3>
+                <h3 className="text-xl font-bold text-gray-100 mb-2">🐉 Player</h3>
                 <p className="text-gray-400">
-                  Pertempuran epik melawan boss legendaris seperti Ancient Dragon, Lich King, dan monster mythical
-                  lainnya.
+                  Member
                 </p>
               </CardContent>
             </Card>

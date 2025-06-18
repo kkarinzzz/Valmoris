@@ -108,7 +108,7 @@ export default function GaleriPage() {
             <Card className="overflow-hidden border-slate-600 bg-slate-800/80 backdrop-blur-sm hover:shadow-lg hover:shadow-red-900/20 transition-all">
               <div className="aspect-video relative">
                 <Image
-                  src="/images/village/png?height=400&width=600"
+                  src="/images/village.png?height=400&width=600"
                   alt="Mountain Village"
                   fill
                   className="object-cover hover:scale-105 transition-transform duration-300"

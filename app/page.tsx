@@ -13,7 +13,7 @@ export default function Component() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   const copyServerInfo = () => {
-    navigator.clipboard.writeText("IP: Valmoris.my.id | Port: 19105")
+    navigator.clipboard.writeText("IP: valmoris.my.id | Port: 19105")
     setCopied(true)
     setTimeout(() => setCopied(false), 2000)
   }
@@ -153,12 +153,12 @@ export default function Component() {
                   <div>
                     <p className="text-xs md:text-sm text-gray-400 mb-1">IP Server</p>
                     <div className="flex items-center justify-center gap-2 p-2 md:p-3 bg-slate-700 rounded-lg border border-slate-600">
-                      <code className="text-sm md:text-lg font-mono text-yellow-400">Valmoris.my.id</code>
+                      <code className="text-sm md:text-lg font-mono text-yellow-400">valmoris.my.id</code>
                       <Button
                         size="sm"
                         variant="ghost"
                         onClick={() => {
-                          navigator.clipboard.writeText("Valmoris.my.id")
+                          navigator.clipboard.writeText("valmoris.my.id")
                           setCopied(true)
                           setTimeout(() => setCopied(false), 2000)
                         }}
@@ -294,15 +294,15 @@ export default function Component() {
         <div className="container mx-auto">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-8 text-center">
             <div>
-              <div className="text-2xl md:text-4xl font-bold mb-1 md:mb-2 text-yellow-400">500+</div>
+              <div className="text-2xl md:text-4xl font-bold mb-1 md:mb-2 text-yellow-400">Unlimited</div>
               <div className="text-gray-400 text-xs md:text-base">Pemain Terdaftar</div>
             </div>
             <div>
-              <div className="text-2xl md:text-4xl font-bold mb-1 md:mb-2 text-red-400">25+</div>
+              <div className="text-2xl md:text-4xl font-bold mb-1 md:mb-2 text-red-400">5+</div>
               <div className="text-gray-400 text-xs md:text-base">Dungeon Kustom</div>
             </div>
             <div>
-              <div className="text-2xl md:text-4xl font-bold mb-1 md:mb-2 text-purple-400">15+</div>
+              <div className="text-2xl md:text-4xl font-bold mb-1 md:mb-2 text-purple-400">10+</div>
               <div className="text-gray-400 text-xs md:text-base">Boss Epik</div>
             </div>
             <div>
@@ -326,7 +326,7 @@ export default function Component() {
             </div>
 
             <div>
-              <h4 className="font-bold text-gray-100 mb-4">Link Cepat</h4>
+              <h4 className="font-bold text-gray-100 mb-4">Link</h4>
               <ul className="space-y-2">
                 <li>
                   <Link href="/rules" className="hover:text-yellow-400 transition-colors">
@@ -360,9 +360,9 @@ export default function Component() {
               <h4 className="font-bold text-gray-100 mb-4">Info Server</h4>
               <div className="space-y-2 text-sm">
                 <p>IP: Valmoris.my.id:19105</p>
-                <p>Versi: 1.20.x</p>
+                <p>Versi: 1.21.x</p>
                 <p>Tipe: Medieval RPG</p>
-                <p>Maks Pemain: 100</p>
+                <p>Maks Pemain: Unlimited</p>
               </div>
             </div>
           </div>
@@ -370,7 +370,7 @@ export default function Component() {
           <Separator className="my-8 bg-slate-700" />
 
           <div className="text-center text-gray-500">
-            <p>&copy; 2024 Valmoris Dominion. Semua hak dilindungi.</p>
+            <p>&copy; 2025 Valmoris Dominion. Semua hak dilindungi.</p>
           </div>
         </div>
       </footer>

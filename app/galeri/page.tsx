@@ -159,16 +159,16 @@ export default function GaleriPage() {
             <Card className="overflow-hidden border-slate-600 bg-slate-800/80 backdrop-blur-sm hover:shadow-lg hover:shadow-red-900/20 transition-all">
               <div className="aspect-video relative">
                 <Image
-                  src="/placeholder.svg?height=400&width=600"
-                  alt="Guild hall dan kingdom territory"
+                  src="https://i.pinimg.com/736x/29/d6/22/29d622c104fb4aacd8e06692398a9758.jpg?height=400&width=600"
+                  alt="EasterEgg"
                   fill
                   className="object-cover hover:scale-105 transition-transform duration-300"
                 />
               </div>
               <CardContent className="p-6">
-                <h3 className="text-xl font-bold text-gray-100 mb-2">👑 Guild Kingdom</h3>
+                <h3 className="text-xl font-bold text-gray-100 mb-2">👑 Hehe</h3>
                 <p className="text-gray-400">
-                  Guild hall yang megah dan territory kerajaan yang dapat dikuasai oleh guild-guild terkuat di server.
+                  EasterEgg
                 </p>
               </CardContent>
             </Card>

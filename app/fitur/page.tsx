@@ -77,7 +77,7 @@ export default function FiturPage() {
                 </div>
                 <CardTitle className="text-gray-100">Dungeon Epik</CardTitle>
                 <CardDescription className="text-gray-400">
-                  Jelajahi 25+ dungeon buatan tangan yang dipenuhi harta karun, jebakan mematikan, dan jarahan
+                  Jelajahi 5+ dungeon buatan tangan yang dipenuhi harta karun, jebakan mematikan, dan jarahan
                   legendaris. Setiap dungeon memiliki tema dan tingkat kesulitan yang berbeda.
                 </CardDescription>
               </CardHeader>
@@ -90,7 +90,7 @@ export default function FiturPage() {
                 </div>
                 <CardTitle className="text-gray-100">Boss Legendaris</CardTitle>
                 <CardDescription className="text-gray-400">
-                  Hadapi 15+ boss epik dengan mekanik unik, AI cerdas, dan drop rate langka. Dari Dragon Lord hingga
+                  Hadapi 10+ boss epik dengan mekanik unik, AI cerdas, dan drop rate langka. Dari Dragon Lord hingga
                   Lich King, setiap boss memberikan tantangan berbeda.
                 </CardDescription>
               </CardHeader>
@@ -103,7 +103,7 @@ export default function FiturPage() {
                 </div>
                 <CardTitle className="text-gray-100">Armor & Senjata Kustom</CardTitle>
                 <CardDescription className="text-gray-400">
-                  Temukan 100+ item kustom dengan stats unik, enchantment khusus, dan visual yang menakjubkan. Dari
+                  Temukan banyak item kustom dengan stats unik, enchantment khusus, dan visual yang menakjubkan. Dari
                   pedang legendaris hingga armor set mythical.
                 </CardDescription>
               </CardHeader>
@@ -116,8 +116,7 @@ export default function FiturPage() {
                 </div>
                 <CardTitle className="text-gray-100">Sistem RPG Lengkap</CardTitle>
                 <CardDescription className="text-gray-400">
-                  Level up dengan 10+ skill tree, class system, talent points, dan progression yang mendalam. Pilih
-                  jalur Warrior, Mage, Archer, atau Rogue.
+                  SOON!!
                 </CardDescription>
               </CardHeader>
             </Card>
@@ -129,8 +128,7 @@ export default function FiturPage() {
                 </div>
                 <CardTitle className="text-gray-100">Guild & Kingdom System</CardTitle>
                 <CardDescription className="text-gray-400">
-                  Bentuk guild, bangun kerajaan, dan kuasai territory. Sistem diplomasi, perang guild, dan alliance yang
-                  kompleks untuk pengalaman politik medieval.
+                  SOON!!
                 </CardDescription>
               </CardHeader>
             </Card>
@@ -142,8 +140,7 @@ export default function FiturPage() {
                 </div>
                 <CardTitle className="text-gray-100">Event & Quest System</CardTitle>
                 <CardDescription className="text-gray-400">
-                  Ikuti daily quest, weekly event, seasonal festival, dan world event yang memberikan reward eksklusif
-                  dan pengalaman unik.
+                  SOON!!
                 </CardDescription>
               </CardHeader>
             </Card>
@@ -169,10 +166,7 @@ export default function FiturPage() {
                 <CardHeader>
                   <CardTitle className="text-gray-100">⚔️ Combat System</CardTitle>
                   <CardDescription className="text-gray-400">
-                    • Skill-based combat dengan combo system
-                    <br />• Magic spells dan ability cooldown
-                    <br />• PvP arena dan tournament
-                    <br />• Damage calculation yang realistis
+                    • SOON!!
                   </CardDescription>
                 </CardHeader>
               </Card>
@@ -181,10 +175,7 @@ export default function FiturPage() {
                 <CardHeader>
                   <CardTitle className="text-gray-100">🎨 Customization</CardTitle>
                   <CardDescription className="text-gray-400">
-                    • Custom skin dan cosmetic items
-                    <br />• House building dengan furniture
-                    <br />• Banner dan emblem creator
-                    <br />• Pet system dengan breeding
+                    • SOON!!
                   </CardDescription>
                 </CardHeader>
               </Card>
@@ -193,10 +184,7 @@ export default function FiturPage() {
                 <CardHeader>
                   <CardTitle className="text-gray-100">🌐 Community</CardTitle>
                   <CardDescription className="text-gray-400">
-                    • Discord integration dengan bot
-                    <br />• Leaderboard dan achievement system
-                    <br />• Player marketplace dan auction
-                    <br />• 24/7 staff support dan moderation
+                    • 24/7 Support staff dan admin
                   </CardDescription>
                 </CardHeader>
               </Card>
@@ -242,7 +230,7 @@ export default function FiturPage() {
             </div>
 
             <div>
-              <h4 className="font-bold text-gray-100 mb-4">Link Cepat</h4>
+              <h4 className="font-bold text-gray-100 mb-4">Link</h4>
               <ul className="space-y-2">
                 <li>
                   <Link href="/rules" className="hover:text-yellow-400 transition-colors">
@@ -286,7 +274,7 @@ export default function FiturPage() {
           <Separator className="my-8 bg-slate-700" />
 
           <div className="text-center text-gray-500">
-            <p>&copy; 2024 Valmoris Dominion. Semua hak dilindungi.</p>
+            <p>&copy; 2025 Valmoris Dominion. Semua hak dilindungi.</p>
           </div>
         </div>
       </footer>
